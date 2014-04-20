@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Einkaufsliste</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div id="sl-view" data-role="page">
+            <div id="sl-view-header" data-role="header">
+                <a href="index.html" data-icon="home" data-iconpos="notext" data-shadow="false"></a>
+                <a href="shoppingListOverview.html" data-icon="grid" data-iconpos="notext" data-shadow="false"></a>
+                <h3>Einkaufsliste anzeigen</h3>
+            </div>
+            <div data-role="content">
+                <ul id="sl-view-list" data-role ="listview" data-inset="true">
+                </ul>
+            </div>
+
+            <div data-role="footer" data-position="fixed">
+                <input data-mini="true" type="text" name="new-list-element" id="new-list-element"/>
+                <a href="#" id="append-element-button" data-role="button" data-icon="plus">Element hinzufügen</a>
+                <a href="#" id="save-current-button" data-role="button" data-icon="gear">Liste speichern</a>
+            </div>
+        </div>
+    </body>
+</html>

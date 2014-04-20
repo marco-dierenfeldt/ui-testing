@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div id="sl-new" data-role="page">
+            <div data-role="header">
+                <a href="index.html" data-icon="home" data-iconpos="notext" data-shadow="false"></a>
+                <h3>Neue Einkaufsliste</h3>
+            </div>
+            <div data-role="content">
+                <div data-role="fieldcontain">
+                    <label for="list-title">Titel</label>
+                    <input type="text" value="Default Liste" name="list-title"
+                           id="list-title" data-clear-btn="true" />
+                </div>
+                <ul id="sl-new-list" data-role="listview"
+                    data-inset="true" data-mini="true">
+                </ul>
+                <div id="tmp-out"></div>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                    <input data-mini="true" type="text" name="new-element" id="new-element"/>
+                    <div id="add-element-button" data-role="button" data-icon="plus">Element hinzufügen</div>
+                    <div id="save-list-button" data-role="button" data-icon="gear">Liste speichern</div>
+            </div>
+        </div>
+    </body>
+</html>
